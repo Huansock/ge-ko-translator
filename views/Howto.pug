@@ -1,0 +1,71 @@
+doctype
+html(lang='de')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(property="og:title" content="UK - GE перекладач")
+    meta(property="og:description" content="Мобільний, настільний доступний, потрібен браузер Chrome")
+    meta(property="og:image" content="/static/images/home.png")
+    //- 파비콘
+    meta(name="msapplication-TileColor" content="#da532c")
+    meta(name="theme-color" content="#ffffff")
+    link(rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png")
+    link(rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png")
+    link(rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png")
+    link(rel="manifest" href="/static/images/site.webmanifest")
+    link(rel="mask-icon" href="/static/images/safari-pinned-tab.svg" color="#5bbad5")
+     //- 반응형 설정
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    script(src="https://kit.fontawesome.com/03953410b5.js" crossorigin="anonymous")
+    title Як використовувати
+    link(rel='stylesheet', type='text/css', href=`/static/styles/How.css`)
+  body#body
+    header#header
+      div#pagechange
+        a(href="/")
+          i(class="fas fa-home fa-2x" id="backtohome")
+    div#Document 
+      h1#superTitle Налаштування
+      div#caution
+        div 
+          i(class="fas fa-exclamation-triangle")
+            |   обережність
+            p
+            | Будь ласка, дайте дозвіл на мікрофон     
+      div#Button
+        input(type="button", value="mobile", id="mobileBtn")  
+        input(type="button", value="desktop", id="desktopBtn")            
+      h2#comSet Налаштування робочого столу
+      div.description
+        img(src="/static/images/mic setting.gif")
+        p.description_script
+          | Переконайтеся, що мікрофон вашого комп’ютера увімкнено
+      h2 Налаштування робочого столу -2
+      div.description
+        img(src="/static/images/mic vol setting.gif")
+        p.description_script
+          | Двічі клацніть мікрофон, який ви використовуєте для введення налаштувань, а потім збільште гучність, як показано на малюнку поруч.
+      h2 Налаштування робочого столу -3
+      div.description
+        img#web(src="/static/images/web mic setting.gif")
+        p.description_script
+          | Коли ви вперше заходите на сайт, надайте дозвіл мікрофону. Ви натиснули відхилити? Потім вам потрібно перейти до налаштувань Chrome і знову надати йому дозвіл. Якщо ви дали дозвіл, будь ласка, налаштуйте мікрофон, яким ви зараз користуєтесь, як показано на малюнку ліворуч. Тоді це буде визнано.
+      h2#mobSet Налаштування мобільного телефону
+      div.Android_description
+        img#AndWeb(src="/static/images/android_web.gif")
+        p.description_script
+          | Використовуйте браузер Chrome або програму Safari.
+        p.description_script
+          | * В даний час існує явище, що його не можна нормально використовувати в браузері Safari мобільного телефону. У цьому випадку ми рекомендуємо використовувати браузер Chrome.
+      div(style="text-align:center; margin-bottom: 20rem;")
+        h2 Заходи боротьби з помилками
+        p 1. Чи є дві вкладки, які використовують мікрофон? Залиште одну вкладку та спробуйте оновити. натисніть на нього 5 разів
+        p 2. Якщо це не допомогло, вимкніть Chrome і спробуйте знову отримати доступ до сайту.
+        p 3. Якщо це не допомогло, вимкніть Chrome і спробуйте знову отримати доступ до сайту. 
+        p dntjrdl@knou.ac.kr 
+          
+
+    div#footer gebildet mit wooseok yang
+      img#face(src="/static/images/face.png")
+  script(src=`/static/scripts/How.js` type="text/javascript") 
+

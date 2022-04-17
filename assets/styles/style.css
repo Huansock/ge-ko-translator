@@ -1,0 +1,77 @@
+#body {
+  background-color: #005bbb;
+}
+
+#contents {
+  text-align: center;
+}
+#available {
+  font-size: medium;
+  color: #ffffff;
+}
+#korean {
+  margin-top: 150px;
+  color: #ffffff;
+  font-size: medium;
+}
+#german {
+  margin-top: 200px;
+  color: #ffffff;
+  font-size: medium;
+}
+#script {
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+  max-width: 500px;
+  background-color: #ffd500;
+  border-radius: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: xx-large;
+}
+#translated {
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 60px;
+  max-width: 500px;
+  background-color: #ffd500;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: xx-large;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  color: aliceblue;
+}
+#footer img {
+  width: 20px;
+  margin-left: 10px;
+}
+#leftheader img {
+  padding: 10px;
+  width: 20px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+  #available {
+    margin-top: 30px;
+  }
+  #Howto {
+    width: 40px;
+  }
+  #leftheader {
+    padding: 5px;
+  }
+}
