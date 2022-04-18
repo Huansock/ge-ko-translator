@@ -6,7 +6,7 @@ import fetch from "node-fetch";
 import path from "path";
 const __dirname = path.resolve();
 const app = express();
-const port = process.env.PORT || 4000;
+const port = 8080;
 
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
