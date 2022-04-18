@@ -23,23 +23,20 @@ html(lang='de')
     script(src="https://kit.fontawesome.com/03953410b5.js" crossorigin="anonymous")
     title Український перекладач в режимі реального часу, німецькою мовою
     link(rel='stylesheet', type='text/css', href=`/static/styles/style.css`)
-    script(async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8947258936212466"
-     crossorigin="anonymous")
-    script(async src="https://www.googletagmanager.com/gtag/js?id=G-F4TJN24R4K")
+    //-  Global site tag (gtag.js) - Google Analytics
+    script(async src="https://www.googletagmanager.com/gtag/js?id=G-42J1Q0HXK4")
     script.
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-F4TJN24R4K');
-    script(async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8947258936212466"
-     crossorigin="anonymous")
+        gtag('config', 'G-42J1Q0HXK4');
   body#body
     header#header 
       div#leftheader
         a(href="https://murakanoimma.herokuapp.com/")
-          img#ko(src="/static/images/korea.png")
-          img#exchange(src="/static/images/exchange.png")
-          img#de(src="/static/images/germany.png")
+          img#uk(src="/static/images/ukraine.png" style="width:40px")
+          img#exchange(src="/static/images/exchange.png" style="width:40px")
+          img#de(src="/static/images/germany.png" style="width:40px")
       a(href="/Howto")
         img#Howto(src="/static/images/guide.png")
 
