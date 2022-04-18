@@ -2,10 +2,9 @@
   "type": "module",
   "name": "murakano-master",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +25,7 @@
     "pug": "^3.0.2",
     "sitemap-generator-cli": "^7.5.0",
     "socket.io": "^4.2.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
